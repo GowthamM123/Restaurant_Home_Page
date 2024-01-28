@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact_page.css">
+    <title>Little Lemon Restaurant</title>
+</head>
+<body><header>
+    <img src="lemo2.jpg" alt="little lemon logo">
+    <nav>
+        <ul>
+            <li><a href="home_page.html">Home</a></li>
+            <li>|</li>
+            <li><a href="menu_page.html">Menu</a></li>
+            <li>|</li>
+            <li><a href="about_page.html">About Us</a></li>
+            <li>|</li>
+            <li><a href="contact_page.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+       
+        <section id="contact">
+            <h2>Contact Little Lemon Restaurant</h2>
+            <p>We would love to hear from you! Feel free to reach out to us using the contact information below:</p>
+            
+            <address>
+                <p>Email: <a href="mailto:gowthammuthukumar1979@gmail.com">info@littlelemon.com</a></p>
+                <p>Phone: +91 89743 96025</p>
+                <p>Address: 123 Main Street, Chennai</p>
+            </address>
+            
+            <p>Alternatively, you can use the form below to send us a message:</p>
+            
+            
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+    <footer><table><tr><td>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="lemo2.jpg" alt="Little Lemon Logo">
+            </div></td>
+            <td>
+            <div class="copyright">
+                <p>&copy; 2024 Little Lemon Restaurant. All rights reserved.</p>
+            </div>
+        </div></td></tr></table>
+    </footer>
+</body>
+</html>
