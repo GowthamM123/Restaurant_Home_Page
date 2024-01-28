@@ -21,5 +21,5 @@ Welcome to the Little Lemon Restaurant Home Page project! This project showcases
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/restaurant-home-page.git
+   git clone https://github.com/GowthamM123/restaurant-home-page.git
    cd restaurant-home-page
